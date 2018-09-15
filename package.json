@@ -1,0 +1,24 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "description": "cloud",
+  "scripts": {
+    "npm start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longwdl/nradio_it_cloud_mqtt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longwdl/nradio_it_cloud_mqtt/issues"
+  },
+  "homepage": "https://github.com/longwdl/nradio_it_cloud_mqtt#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.0",
+    "mosca": "^2.7.0",
+    "redis": "^2.8.0"
+  }
+}
